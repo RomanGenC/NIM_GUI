@@ -232,7 +232,7 @@ class Ui_MainWindow(object):
 
     def pop_action(self, btn):
         if btn.text() == "Ok":
-            print("Clicked Ok")
+            print("Clicked Ok now")
         elif btn.text() == "Reset":
             print('Reset')
             self.reset_buttons()
